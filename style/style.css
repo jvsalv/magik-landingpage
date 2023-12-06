@@ -44,6 +44,10 @@ ul.menu {
     list-style: none;
 }
 
+ul.menu li:hover {
+    text-decoration: underline;
+}
+
 a.github {
     color: black;
     font-weight: 800;
@@ -202,6 +206,13 @@ div.p2footer a {
     text-align: center;
 }
 
+div.p2footer a:hover {
+    background-color: #111111;
+    color: #F7F3E8;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
 div.p2footer p {
     font-size: 24px;
 }
@@ -213,4 +224,151 @@ div.p2image {
 div.p2image > img {
     max-width: 100%;
     height: auto;
+}
+
+
+
+/* PAGE 3 */
+section.page03 {
+    max-width: 1600px;
+    height: 100vh;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+section.page03 header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+section.page03 header > h2 {
+    font-size: 72px;
+}
+
+div.p3content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+section.page03 div.card {
+    padding: 20px 20px 30px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    background-color: #111111;
+    color: #F7F3E8;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
+}
+
+section.page03 div.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+section.page03 div.card-content  h2 {
+    font-size: 36px;
+}
+
+section.page03 div.card-content  h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section.page03 div.card-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+section.page03 div.card a {
+    padding: 10px;
+    color: #F7F3E8;
+    border: 1px solid #F7F3E8;
+    border-radius: 50px;
+}
+
+section.page03 div.card a:hover {
+    background-color: #F7F3E8;
+    color: #111111;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+div.p3img  img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* PAGE 4 */
+section.page04 {
+    max-width: 1600px;
+    height: 100vh;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+}
+
+div.p4content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+div.p4content h2 {
+    font-size: 60px;
+}
+
+div.p4content h3 {
+    font-size: 28px;
+}
+
+div.p4content div.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+div.p4content div.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+div.p4content div.button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.p4content a {
+    padding: 50px 35px;
+    border: 2px solid #111111;
+    border-radius: 500px;
+    
+    text-align: center;
+}
+
+div.p4content a:hover {
+    background-color: #111111;
+    color: #F7F3E8;
+    text-decoration: underline;
+    transition: 0.3s;
 }
