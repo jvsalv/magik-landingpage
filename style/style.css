@@ -26,8 +26,13 @@ body {
 
 
 /* MENU */
+header {
+    max-width: 1841px;
+}
+
 nav.menu {
-    max-width: 1600px;
+    width: 1600px;
+    height: 135px;
     margin: auto;
     padding: 24px 0px;
     
@@ -66,7 +71,7 @@ main {
 /* HERO */
 .hero {
     max-width: 1600px;
-    height: calc(100vh - 136px);
+    height: calc(100vh - 135px);
     margin: auto;
 
     display: flex;

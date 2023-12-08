@@ -16,6 +16,14 @@ a {
 
 
 
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 /* GENERAL */
 body {
     background-color: #F7F3E8;
@@ -26,8 +34,13 @@ body {
 
 
 /* MENU */
+header {
+    max-width: 1841px;
+}
+
 nav.menu {
-    max-width: 1600px;
+    width: 1600px;
+    height: 135px;
     margin: auto;
     padding: 24px 0px;
     
