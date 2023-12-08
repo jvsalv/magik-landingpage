@@ -57,10 +57,8 @@ a.github {
 
 /* PAGE */
 section.about {
-    height: calc(100vh - 136px);
-}
-div.about {
-    max-width: 1300px;
+    max-width: 1200px;
+    height: calc(100vh - 140px);
     margin: auto;
 
     display: flex;
@@ -68,22 +66,56 @@ div.about {
     align-items: center;
 }
 
-section.about h1 {
-    font-size: 72px;
+section.about > div.container {
+    display: flex;
+    flex-direction: row;
 }
 
-section.about p {
-    font-size: 24px;
-}
-
-section.about > header {
+section.about > div.container > header {
     width: 40%;
 }
 
-section.about > div {
+section.about > div.container > div.content {
     width: 60%;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 30px;
+    gap: 48px;
+}
+
+section.about div.content > div.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+section.about div.content-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+section.about div.content-footer > div.text {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+section.about div.content-footer > div.address {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 8px;
+}
+
+section.about h1 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+section.about div.content-footer p {
+    color: #5c5c5c;
+    font-size: 14px;
 }
