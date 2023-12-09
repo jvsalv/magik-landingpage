@@ -100,6 +100,7 @@ section.about div.content > div.text {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    text-align: justify;
 }
 
 section.about div.content-footer {
@@ -131,5 +132,6 @@ section.about h1 {
 section.about div.content-footer p {
     color: #5c5c5c;
     font-size: 14px;
+    text-align: justify;
 }
 
