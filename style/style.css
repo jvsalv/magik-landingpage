@@ -428,25 +428,25 @@ footer header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px;
+    gap: 24px;
 }
 
 div.socialmedia {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 36px;
+    gap: 32px;
 }
 
 div.socialmedia img {
-    width: 48px;
+    width: 36px;
     height: auto;
 }
 
 div.subscribe {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 
 }
 
@@ -488,7 +488,7 @@ div.subscribe input[type= submit] {
 div.contact {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 div.contact h2 {
