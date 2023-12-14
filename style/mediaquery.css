@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+    
+    
+    header {
+        max-width: 90vw;
+        margin: auto;
+    }
+    
+    nav.menu {
+        max-width: 1280px;
+        height: 135px;
+        margin: auto;
+        padding: 24px 0px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero {
+        max-width: 90vw;
+    }
+
+    div.page01 {
+        max-width: 1360px;
+    }
+
+    section.page02 {
+        max-width: 1360px;
+    }
+
+    section.page03 {
+        max-width: 1360px;
+    }
+
+    section.page04 {
+        max-width: 1360px;
+    }
+    div.p4img {
+        max-width: 60%;
+        height: auto;
+    }
+
+    div.p4img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.p4content {
+        max-width: 40%;
+    }
+}
